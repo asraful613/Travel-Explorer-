@@ -1,0 +1,24 @@
+/* work sans font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&family=Work+Sans:wght@400;600;700;800&display=swap');
+/* share styles */
+  *{
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+/* nav styles */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:40px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
